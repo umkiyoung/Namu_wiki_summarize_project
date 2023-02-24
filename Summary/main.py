@@ -66,7 +66,7 @@ def run_totally(name, model, tokenizer):
 
 
 if __name__ == '__main__':
-    name = '김유경                                                                                                     '
+    name = '지능'                                                                                                     '
     model, tokenizer = model_load('gogamza')
     #run_separate(name, model, tokenizer)
     run_totally(name,model,tokenizer)
