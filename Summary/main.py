@@ -3,9 +3,9 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
-from Model import model_load
-from Model import preprocessing
-from Model import summarizing
+from model import model_load
+from model import preprocessing
+from model import summarizing
 import sys
 
 
