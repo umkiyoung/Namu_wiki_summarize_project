@@ -61,6 +61,7 @@ def run_separate(name, model, tokenizer):
 
 def run_totally(name, model, tokenizer):
     index_list, text_list, index_text = textRetrieval(name)
+    print("요약 결과")
     for i in range(len(index_list)):
         print(index_list[i],summarizing(preprocessing(text_list[i]),model,tokenizer),sep='\n')
 
