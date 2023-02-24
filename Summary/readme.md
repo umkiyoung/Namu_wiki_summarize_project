@@ -1,6 +1,7 @@
 # ***나무위키 요약 프로그램***
 
 ### - 사용법
+<br>
 
 1. Model.py, main.py를 같은 디렉토리 내에 다운로드
 2. 필요한 모듈 install (transformers, selenium 등)
@@ -10,9 +11,6 @@
 
  - run_totally의 경우 나무위키 내의 모든 목차를 요약 한 뒤 프린팅 하는 함수입니다.
 
-<br>
-<br>
-<br>
 <br>
 
 
